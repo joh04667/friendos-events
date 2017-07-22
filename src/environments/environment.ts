@@ -7,5 +7,5 @@ export const environment = {
   production: false,
   // They're public keys. No reason to hide them.
   eventsApiKey: 'SqP57KRssxcqSqhK',
-  mapsApiKey: 'AIzaSyDBha4eueO_0UK9xU11q0TS5KBLlOBJDdE'
+  mapsApiKey: 'AIzaSyBmgqmU177oxi5DzTZJgPF6rmMYXEhA1_8'
 };

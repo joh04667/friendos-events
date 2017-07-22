@@ -11,10 +11,12 @@ import { AgmCoreModule } from '@agm/core';
 import { environment } from '../environments/environment';
 
 import 'hammerjs';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
