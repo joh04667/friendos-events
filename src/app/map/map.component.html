@@ -1,1 +1,6 @@
-<agm-map [latitude]="51" [longitude]="7"></agm-map>
+
+<agm-map [latitude]="lat" [longitude]="lng"
+(centerChange)="test($event)">
+<agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>
+

@@ -12,6 +12,7 @@ import { environment } from '../environments/environment';
 
 import 'hammerjs';
 import { MapComponent } from './map/map.component';
+import { StyleDirectivesModule } from './directives/style.directive';
 
 @NgModule({
   declarations: [
@@ -20,14 +21,17 @@ import { MapComponent } from './map/map.component';
   ],
   imports: [
     BrowserModule,
+    StyleDirectivesModule,
     FlexLayoutModule,
     MaterialModule,
     BrowserAnimationsModule,
     AgmCoreModule.forRoot({
-      apiKey: environment.mapsApiKey
+      apiKey: environment.mapsApiKey,
+      libraries: ['places']
     })
   ],
   providers: [ MdIconRegistry ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
+
