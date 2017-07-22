@@ -4,5 +4,8 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // They're public keys. No reason to hide them.
+  eventsApiKey: 'SqP57KRssxcqSqhK',
+  mapsApiKey: 'AIzaSyDBha4eueO_0UK9xU11q0TS5KBLlOBJDdE'
 };

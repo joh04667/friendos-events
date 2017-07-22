@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */ // i did shut up
+// @import 'styles/theme';
+@import 'styles/variables', 'styles/theme';
+
+
+html, body{ 
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: $background-light;
+}
+

@@ -1,0 +1,15 @@
+// Animations timings up to spec
+// see https://material.io/guidelines/motion/duration-easing.html#duration-easing-natural-easing-curves
+$md-animation-standard: cubic-bezier(0.4, 0.0, 0.2, 1);
+$md-animation-decelerate: cubic-bezier(0.0, 0.0, 0.2, 1);
+$md-animation-accelerate: cubic-bezier(0.4, 0.0, 1, 1);
+$md-animation-sharp: cubic-bezier(0.4, 0.0, 0.6, 1);
+
+
+@mixin mat-text-hover ($hoverColor: black, $timing: 150ms) {
+    transition: color $md-animation-sharp;
+    &:hover {
+        color: $hoverColor;
+        transition: color $md-animation-sharp;
+    }
+}

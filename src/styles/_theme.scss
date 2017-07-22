@@ -1,0 +1,14 @@
+@import '~@angular/material/theming', 'palette';
+
+
+@include mat-core();
+
+
+
+$friendo-primary: mat-palette($mat-ocean);
+$friendo-accent: mat-palette($mat-tangerine);
+$friendo-warn: mat-palette($mat-winered);
+
+$friendo-app-theme: mat-light-theme($friendo-primary, $friendo-accent);
+
+@include angular-material-theme($friendo-app-theme);
