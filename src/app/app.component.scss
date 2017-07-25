@@ -4,3 +4,8 @@
 .mat-toolbar {
   @include mat-elevation(2);
 }
+
+.mat-card {
+    margin: 24px;
+}
+

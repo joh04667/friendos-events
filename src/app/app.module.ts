@@ -13,11 +13,13 @@ import { environment } from '../environments/environment';
 import 'hammerjs';
 import { MapComponent } from './map/map.component';
 import { StyleDirectivesModule } from './directives/style.directive';
+import { DrawerComponent } from './drawer/drawer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapComponent
+    MapComponent,
+    DrawerComponent
   ],
   imports: [
     BrowserModule,

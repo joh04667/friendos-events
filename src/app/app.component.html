@@ -7,16 +7,26 @@
 </md-toolbar>
 
 
-<md-card [fpadding]="20">
-<friendo-map></friendo-map>
+<md-card>
+  <friendo-map></friendo-map>
+
+  <friendo-drawer #drawer>
+
+    <md-input-container>
+      <input mdInput placeholder="Test the drawer">
+    </md-input-container>
+
+  </friendo-drawer>
+
 </md-card>
 
 <md-card>
-  <md-card-title>Submit some shit</md-card-title>
+  <md-card-title>Submit some stuff</md-card-title>
   <md-card-content>
-
     <md-input-container>
-      <input mdInput placeholder="Do it bitch">
+      <input mdInput placeholder="Do it">
     </md-input-container>
   </md-card-content>
+
+  <button md-button color="primary" (click)="drawer.toggle()">drawer</button>
 </md-card>
