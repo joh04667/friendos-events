@@ -14,12 +14,15 @@ import 'hammerjs';
 import { MapComponent } from './map/map.component';
 import { StyleDirectivesModule } from './directives/style.directive';
 import { DrawerComponent } from './drawer/drawer.component';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MapComponent,
-    DrawerComponent
+    DrawerComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,

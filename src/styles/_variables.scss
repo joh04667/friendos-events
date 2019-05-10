@@ -1,4 +1,4 @@
 @import '~@angular/material/theming';
+@import 'palette';
 
-
-$background-light: #f3f3f3;
+$background-light: #f4f4f4; //map-get($mat-ocean, 300);

@@ -12,3 +12,4 @@ $friendo-warn: mat-palette($mat-winered);
 $friendo-app-theme: mat-light-theme($friendo-primary, $friendo-accent);
 
 @include angular-material-theme($friendo-app-theme);
+
